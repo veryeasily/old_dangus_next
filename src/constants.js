@@ -1,0 +1,1 @@
+exports.GROUPME_BOT_POST_URL = 'https://api.groupme.com/v3/bots/post';

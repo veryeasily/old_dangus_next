@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  nodejs:
+    build: .
+    command: yarn run dev
+    container_name: nodejs
+    image: dangus/nodejs:latest
+    volumes:
+      - "./:/app/"
+    ports:
+      - "3000:3000"
+      - "9229:9229"

@@ -8,6 +8,8 @@
       "type": "node",
       "request": "attach",
       "name": "Attach to application",
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "/app",
       "skipFiles": ["<node_internals>/**"],
       "port": 9229
     }
